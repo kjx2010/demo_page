@@ -1,0 +1,11 @@
+Hi I'm Kamil
+
+skills
+html5-
+js-
+jquery
+css3-
+bootstrap
+canvas
+php-
+sql-
