@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/loader.css">
     <link rel="stylesheet" type="text/css" href="css/skills.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
 
     <!-- Icons for this site -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -120,6 +121,13 @@
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
             <div class="my-auto">
                 <h2 class="mb-5">Contact</h2>
+                <form action="mailto:kam.j@poczta.onet.pl" method="post" enctype="text/plain" class="dp_form">
+                    <div><i class="far fa-user"></i><input type="text" name="first_name" placeholder="First Name"><input type="text" name="last_name" placeholder="Last Name"></div><br>
+                    <div><i class="fas fa-envelope"></i><input type="text" name="mail" placeholder="E-mail" ></div><br>
+                    <div><i class="fas fa-comment"></i><input type="text" name="message" placeholder="Message" size="50"></div><br>
+                    <div><button type="submit" value="Send">Send <i class="fas fa-paper-plane"></i></button>
+                    <button type="reset" value="Reset">Reset <i class="fas fa-power-off"></i></button></div>
+                </form>
             </div>
         </section>
 
