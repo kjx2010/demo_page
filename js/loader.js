@@ -1,5 +1,5 @@
 function loaderFunction() {
-    const l_time = setTimeout(showPage, 3000);
+  const l_time = setTimeout(showPage, 3000);
 }
 
 function showPage() {

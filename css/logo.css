@@ -1,4 +1,4 @@
-.log_1{
+.log_1 {
     display: block;
     /* margin-bottom: auto!important;
     margin-top: auto!important;
@@ -14,8 +14,9 @@
     visibility: hidden;
     z-index: -1;
 }
+
 @media (min-width: 1233px) {
-    .log_1{
+    .log_1 {
         display: block;
         /* margin-bottom: auto!important;
         margin-top: auto!important;
@@ -32,8 +33,8 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1279px){
-    .log_1{
+@media (min-width: 992px) and (max-width: 1279px) {
+    .log_1 {
         display: block;
         /* margin-bottom: auto!important;
         margin-top: auto!important;
