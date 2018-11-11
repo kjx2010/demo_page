@@ -5,10 +5,12 @@ canvas.height = window.innerHeight;
 var a = canvas.getContext('2d');
 
 //resize_canvasa
-addEventListener('resize', function () {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-})
+if (window.matchMedia("(min-width: 768px)").matches) {
+    addEventListener('resize', function () {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+   })
+}
 
 //random int
 function randomIntFromRange(min, max) {
