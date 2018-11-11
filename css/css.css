@@ -87,28 +87,33 @@ hr {
 }
 
 .mintext {
+    display: none;
     visibility: hidden;
-    position: absolute;
+    position: relative;
     color: #b9c0c7;
-    font-size: 2rem;
+    font-size: 1.9rem;
+    box-sizing: border-box;
 }
 
 @media (max-width: 991px) {
     .mintext {
+        display: inline-block;
         visibility: visible;
-        left: 6rem;
-        margin-top: -37.5px;
+        margin-left: 4rem;
     }
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 1000;
     letter-spacing: 0.15rem;
-    margin-top: 1.1rem;
+    margin-bottom: -1rem;
 }
 
-#sideNav .navbar-toggler:focus {
-    outline-color: #001eff;
+@media (min-width: 991px) {
+    #sideNav .navbar-nav .nav-item .nav-link {
+        font-weight: 1000;
+        margin-top: 1.1rem;
+    }
 }
 
 @media (min-width: 992px) {
