@@ -2,3 +2,40 @@
     position: relative;
     line-height: 1rem;
 }
+
+.dp_form_name {
+    width: 18rem;
+}
+
+.dp_form_mail {
+    width: 18rem;
+}
+
+.dp_form_message {
+    width: 100%;
+}
+
+.dp_form_button {
+    width: 10rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+textarea{
+    height: 10rem;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+

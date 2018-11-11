@@ -150,12 +150,15 @@
                 <div class="my-auto">
                     <h2 class="mb-5">Contact</h2>
                     <form action="mailto:kam.j@poczta.onet.pl" method="post" enctype="text/plain" class="dp_form">
-                        <div><i class="far fa-user"></i><input type="text" name="first_name" placeholder="First Name"><input
-                                type="text" name="last_name" placeholder="Last Name"></div><br>
-                        <div><i class="fas fa-envelope"></i><input type="text" name="mail" placeholder="E-mail"></div><br>
-                        <div><i class="fas fa-comment"></i><input type="text" name="message" placeholder="Message" size="30"></div><br>
-                        <div><button type="submit" value="Send">Send <i class="fas fa-paper-plane"></i></button>
-                            <button type="reset" value="Reset">Reset <i class="fas fa-power-off"></i></button></div>
+                        <div class="dp_form_name"><i class="far fa-user"> Name</i>
+                            <input type="text" name="First Name" placeholder="First Name">
+                            <input type="text" name="Last Name" placeholder="Last Name"></div><br>
+                        <div class="dp_form_mail"><i class="fas fa-envelope"> E-mail</i>
+                            <input type="text" name="E-mail" placeholder="E-mail"></div><br>
+                        <div class="dp_form_message"><i class="fas fa-comment"> Message</i>
+                            <textarea name="Message" placeholder="Message"></textarea></div><br>
+                        <div><button type="submit" value="Send" class="dp_form_button">Send <i class="fas fa-paper-plane"></i></button>
+                            <button type="reset" value="Reset" class="dp_form_button">Reset <i class="fas fa-power-off"></i></button></div>
                     </form>
                 </div>
             </section>
