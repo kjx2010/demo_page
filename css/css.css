@@ -109,15 +109,16 @@ hr {
     margin-bottom: -1rem;
 }
 
-#sideNav .navbar-toggler {
-    outline-color: #101011;
-}
-
 @media (min-width: 991px) {
     #sideNav .navbar-nav .nav-item .nav-link {
         font-weight: 1000;
         margin-top: 1.1rem;
+        margin-bottom: 0rem;
     }
+}
+
+#sideNav .navbar-toggler {
+    outline-color: #101011;
 }
 
 @media (min-width: 992px) {
